@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS Example</title>
+    <style>
+        body {
+            background-color: pink;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .test {
+            position: fixed;
+            width: 97%;
+            color: white;
+            font-family: cursive;
+            padding: 10pt;
+            font-weight: bold;
+            font-size: 20pt;
+            height: 30pt;
+            border-radius: 15px;
+            background-color: #FFE633;
+            border: 1px solid red;
+        }
+
+        img {
+            display: inline-block;
+            height: 200pt;
+            width: auto;
+            margin-top: 5%;
+            margin-left: 16.5%;
+            margin-bottom:20%;
+            border-radius: 5px;
+        }
+
+        .text {
+            display: inline-block;
+            margin-top: 25%;
+            width: 50%;
+            height: 200pt;
+            background-color: #DBFF33;
+            margin-left: -35%;
+            border-radius: 200px;
+            word-wrap: break-word;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            height: 350pt;
+            width: 35%;
+            margin-top: 8%;
+            margin-left: 3%;
+            margin-right: 3%
+            color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+        }
+
+        th {
+            background-color: #FFD933;
+            color: black;
+            border: 3px solid black;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #FF4533;
+        }
+
+        tr:nth-child(even) {
+            background-color: whitesmoke;
+        }
+
+        td {
+            border: 3px solid black;
+        }
+
+        .label {
+            display: inline-table;
+            width: 35%;
+            background-color: yellow;
+            height: 30pt;
+            margin-top: 40%;
+            margin-left: -37%;
+            border-radius: 25px;
+            padding-top: 15px;
+            font-weight: bold;
+            font-size: 15pt;
+            background-color: #DBFF33;
+        }
+
+        .content {
+            padding-left: 85px;
+            padding-right: 80px;
+            padding-top: 50px;
+            font-family: cursive
+        }
+    </style>
+</head>
+
+<body>
+    <div class=test>
+        <center>EGGPLANT</center>
+    </div>
+    <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/279/279359/two-eggplants-on-a-wooden-table.jpg" alt="Vegetable" title="Eggplant">
+    <div class="text">
+        <div class="content">
+            Eggplant or brinjal is a plant species in the nightshade family Solanaceae. Solanum melongena is grown
+            worldwide for its edible fruit. Most commonly purple, the spongy, absorbent fruit is used in several cuisines.
+            Typically used as a vegetable in cooking, it is a berry by botanical definition. As a member of the genus Solanum, it is related to the tomato, chili pepper, and potato, although they are new world and the eggplant, like nightshade, is old world. Like the tomato, its skin and seeds can be eaten, but, like the potato, it is usually eaten cooked. <br>
+        </div>
+    </div>
+    <table border ="1" bordercolor="black">
+        <tr>
+            <th>RANK</th>
+            <th>COUNTRY</th>
+            <th>PRODUCTION IN TONNES</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>China</td>
+            <td>4,09,23,200</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>United States of America</td>
+            <td>51,85,078</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Poland</td>
+            <td>31,95,299</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>India</td>
+            <td>24,97,680</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Turkey</td>
+            <td>24,80,444</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Italy</td>
+            <td>24,73,608</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Chile</td>
+            <td>17,57,225</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Russian Federation</td>
+            <td>16,24,000</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Iran</td>
+            <td>15,72,844</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>France</td>
+            <td>15,31,625</td>
+        </tr>
+    </table>
+    <div class="label">
+        <center> TOP 10 EGGPLANT PRODUCING COUNTRIES</center>
+    </div>
+</body>
+
+</html>

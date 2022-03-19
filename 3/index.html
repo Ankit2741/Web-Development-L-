@@ -1,0 +1,62 @@
+<html>
+ <head>
+ <title>WT 4 - CGPA Calculator</title>
+ <link rel="stylesheet" href="style.css">
+
+ </head>
+ <body>
+ <div class = "container_1">
+ <center>Student Details </center>
+ </div>
+ <form method="GET">
+ <table>
+    
+ <tr>
+ <th colspan="2">Enter the Details of the Student </th>
+ </tr>
+ <tr>
+ <td>Student Name</td>
+ <td><input type="text" id="name"/></td>
+ </tr>
+ <tr>
+ <td>Enrollment Number</td>
+ <td><input type="number" id="roll"/></td>
+ </tr>
+ <tr><td>Email</td> <td><input type="email" name="email"></td></tr>
+ <tr><td>DOB</td><td><input type="date" name="birthday"></td></tr>
+ <tr>
+     
+ <tr><td>Gender</td>
+    <td style = "text-align: center;">
+		<input type="radio" name="gender" value="Male">Male&ensp;
+		<input type="radio" name="gender" value="Female">Female&ensp;
+		<input type="radio" name="gender" value="Other">Other</td>
+</tr>
+ <td>College</td>
+ <td>
+ <select name="College" id="colg">
+ <option value="bvcoe">Bharati Vidyapeeth's College of Engineering</option>
+ <option value="mait">Maharaja Agrasen Institute Of Technology</option>
+ <option value="msit">Maharaja Surajmal Institute Of Technology</option>
+ <option value="gtbit">Guru Tegh Bahadur Institute of Technology</option>
+ <option value="bpit">Bhagwan Parshuram Institute of Technology</option>
+ <option value="adgitm">Dr Akhilesh Das Gupta Institute of Technology and 
+Management</option>
+ <option value="hmr">HMR Institute of Technology & Management</option>
+ <option value="other">OTHER</option>
+ </select>
+<tr>
+    <td>Socities</td>
+    <td><input type="checkbox" name="EDC">EDC &ensp;
+		<input type="checkbox" name="TechShuttle">TechShuttle &ensp;
+        <input type="checkbox" name="DSC">DSC&ensp;
+        <input type="checkbox" name="CSI BVP">CSI BVP</td>
+</tr>
+<tr><td>Password</td><td><input type="password" name="password" minLength="5"></td></tr>
+<tr><td></td> 
+    <td><input type="submit" value="Register">
+        &emsp;   &emsp;&ensp;&ensp;<input type="reset"></td></tr>
+ </table>
+</form>
+</body>
+</html>
